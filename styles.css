@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Rubik, sans-serif;
+    color: white;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: #2E7588;
+}
+
+.inicio {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 35vh;
+    animation: fade 4s;
+}
+
+.button_1 {
+    margin: 5vw;
+}
+
+.welcome {
+    font-size: 2vw;
+}
+
+.apresentacao {
+    height: 100vh;
+}
+
+.eu {
+    margin-top: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.eu_2 {
+    margin-top: 25vh;
+    font-size: 1vw;
+}
+
+.eu_4 {
+    border-radius: 50%;
+    margin-top: 25vh;
+}
+
+.button_2 {
+    margin-top: 3vh;
+    padding: 0.5vw;
+}
+
+.formacao {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.estudos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.titulo {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    color: lightgreen;
+    font-size: 1.5vw;
+}
+
+.button_3 {
+    margin-top: 15vh;
+}
+
+.interesses {
+    height: 100vh;
+}
+
+.to_do {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15vw;
+    padding-top: 25vh;
+    font-size: 20px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.linguagens {
+    margin-left: 2vw;
+}
+
+.contato {
+    height: 100vh;
+}
+
+.how {
+    margin-left: 10vw;
+    padding-top: 25vh;
+    font-size: 40px;
+}
+
+.findme {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.findme img {
+    height: 10vh;
+}
+
+.github h1 {
+    margin-left: 14px;
+}
+
+.linkedin h1 {
+    margin-left: 6px;
+}
+
+.email h1 {
+    margin-left: 13px;
+}
+
+h5 {
+    font-weight: lighter;
+    font-size: 15px;
+    padding: 0.1vw;
+}
+
+button {
+    background-color: #fff;
+    color: #2E7588;
+    padding: 1vw;
+    width: 25vh;
+    font-size: 2vh;
+    font-weight: bolder;
+    border: none;
+    border-radius: 25rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0F3551;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+img {
+    height: 30vh;
+}
+
+p1 {
+    font-size: 1.5vw;
+}
+
+@media screen and (max-width: 300px) {
+    .titulo {
+        font-size: 3vw;
+    }
+
+    p1 {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 15px;
+    }
+
+    h5 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    img {
+        height: 20vh;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .titulo {
+        font-size: 3vw;
+    }
+
+    p1 {
+        font-size: 2vw;
+    }
+}
+
+@keyframes fade {
+    from {opacity: 0}
+    to {opacity: 1}
+}
